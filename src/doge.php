@@ -7,27 +7,24 @@ if($detect->isMobile())
 ?>
 <html>
     <head>
-        <title>Better Flappy Bird</title>
+        <title>Flappy Doge</title>
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="apple-touch-icon" href="assets/icon.png">
         <link rel="apple-touch-icon" sizes="120x120" href="assets/icon.png">
-        <link rel="shortcut icon" href="assets/birdie.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="assets/doge.ico" type="image/x-icon" />
         <meta property="fb:admins" content="1434685963"/>
-        <meta property="og:site_name" content="Better Flappy Bird"/>
-        <meta property="og:title" content="Better Flappy Bird"/>
+        <meta property="og:site_name" content="Flappy Doge"/>
+        <meta property="og:title" content="Flappy Doge"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="http://zach.ie/flappy/"/>
-        <meta property="og:image" content="http://zach.ie/flappy/assets/icon.png" />
-        <meta property="og:description" content="A better version of Ural Özden's HTML5 Flappy Bird game which adds high score saving, custom game messages and a larger screen size." />
+        <meta property="og:url" content="http://zach.ie/flappy/doge"/>
+        <meta property="og:image" content="http://zach.ie/flappy/assets/dogeicon.png" />
+        <meta property="og:description" content="Such Flap! So WOW! Flappy Bird HTML5 Game with added Doge!" />
         <style>
             body {
                 background: #abc;
                 margin: 0;
                 padding: 0;
-            }
-            a {
-                color: black;
             }
             #container {
                 width: 100%;
@@ -109,9 +106,9 @@ if($detect->isMobile())
         <div id="screen"></div>
         <div id="scores"><span id="scorevalues"><?php 
         printscores("", isset($_GET['all']));
-        ?></span><a href="doge" /><img src="assets/doge.png" style="vertical-align:middle;padding-right:5px;" title="Doge" />Doge</a></div>
+        ?></span></div>
         <script src="js/phaser.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/doge.js"></script>
         <div id="footer">original html5 game by &nbsp;<a href="http://uralozden.com/flappy/" target="_blank" class="footerlink">Ural Özden</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;forked by zach diebold</div>
       </div>
     </body>
