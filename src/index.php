@@ -3,7 +3,6 @@ require("score.php");
 require_once("assets/detect.php");
 $detect = new Mobile_Detect;
 if($detect->isMobile())
-   header('Location: http://zach.ie/flappy/m');
 ?>
 <html>
     <head>
@@ -17,9 +16,7 @@ if($detect->isMobile())
         <meta property="og:site_name" content="Better Flappy Bird"/>
         <meta property="og:title" content="Better Flappy Bird"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="http://zach.ie/flappy/"/>
-        <meta property="og:image" content="http://zach.ie/flappy/assets/icon.png" />
-        <meta property="og:description" content="A better version of Ural Özden's HTML5 Flappy Bird game which adds high score saving, custom game messages and a larger screen size." />
+        <meta property="og:description" content="HTML5 Flappy Bird game which adds high score saving, custom game messages and a larger screen size." />
         <style>
             body {
                 background: #abc;
@@ -106,13 +103,8 @@ if($detect->isMobile())
         <div id="users"><span id="usersvalues"><?php 
         printusers("");
         ?></span></div>
-        <div id="screen"></div>
-        <div id="scores"><span id="scorevalues"><?php 
-        printscores("", isset($_GET['all']));
-        ?></span><a href="doge" /><img src="assets/doge.png" style="vertical-align:middle;padding-right:5px;" title="Doge" />Doge</a></div>
         <script src="js/phaser.min.js"></script>
         <script src="js/main.js"></script>
-        <div id="footer">original html5 game by &nbsp;<a href="http://uralozden.com/flappy/" target="_blank" class="footerlink">Ural Özden</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;forked by zach diebold</div>
       </div>
     </body>
 </html>

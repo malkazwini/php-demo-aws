@@ -1,6 +1,4 @@
 <?php
-
-// Nice Time function from http://php.net/manual/en/function.time.php#89415
 function nicetime($date){
     if(empty($date)) return "Unknown"; $periods  = array("sec", "min", "hr", "day", "wk", "mth", "yr", "dcde");
     $lengths = array("60","60","24","7","4.35","12","10");$now = time();$unix_date = $date;if(empty($unix_date)) return "Bad date";

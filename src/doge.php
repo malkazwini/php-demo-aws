@@ -1,10 +1,3 @@
-<?php
-require("score.php");
-require_once("assets/detect.php");
-$detect = new Mobile_Detect;
-if($detect->isMobile())
-   header('Location: http://zach.ie/flappy/m');
-?>
 <html>
     <head>
         <title>Flappy Doge</title>
@@ -17,9 +10,7 @@ if($detect->isMobile())
         <meta property="og:site_name" content="Flappy Doge"/>
         <meta property="og:title" content="Flappy Doge"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="http://zach.ie/flappy/doge"/>
-        <meta property="og:image" content="http://zach.ie/flappy/assets/dogeicon.png" />
-        <meta property="og:description" content="Such Flap! So WOW! Flappy Bird HTML5 Game with added Doge!" />
+        <meta property="og:description" content="Flappy Bird HTML5 Game with added Doge!" />
         <style>
             body {
                 background: #abc;
@@ -109,7 +100,6 @@ if($detect->isMobile())
         ?></span></div>
         <script src="js/phaser.min.js"></script>
         <script src="js/doge.js"></script>
-        <div id="footer">original html5 game by &nbsp;<a href="http://uralozden.com/flappy/" target="_blank" class="footerlink">Ural Özden</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;forked by zach diebold</div>
       </div>
     </body>
 </html>
