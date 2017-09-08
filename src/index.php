@@ -29,7 +29,7 @@
     <meta name="twitter:description" content="A description that concisely summarizes the content of the page, as appropriate for presentation within a Tweet. Do not re-use the title text as the description, or use this field to describe the general services provided by the website. Description text will be truncated at the word to 200 characters.">
     <meta name="twitter:image" content="URL to a unique image representing the content of the page. Do not use a generic image such as your website logo, author photo, or other image that spans multiple pages. Images for this Card should be at least 280px in width, and at least 150px in height. Image must be less than 1MB in size."> -->
 
-    <title>Pipeline Demo</title>
+    <title>Pipeline Demo DA 2017</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400">
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -47,7 +47,7 @@
     <div class="content-wrapper">
         <div class="v-center">
             <div class="main-content">
-                <p>Your PHP application is now running on the host &ldquo;<?php echo gethostname(); ?>&rdquo; in your own dedicated environment in the AWS&nbsp;CodePipeline on ECS. This Docker container is running PHP version <?php echo phpversion(); ?>.</p>
+                <p>Thanks for attending DA 2017 Your PHP application is now running on the host &ldquo;<?php echo gethostname(); ?>&rdquo; in your own dedicated environment in the AWS&nbsp;CodePipeline on ECS. This Docker container is running PHP version <?php echo phpversion(); ?>.</p>
                 <ul>
                     <li><a href="http://twitter.com/">Twitter</a></li>
                     <li><a href="http://facebook.com/">Facebook</a></li>
